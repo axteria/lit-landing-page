@@ -7,6 +7,10 @@
   --secondary-font-color: rgb(94, 93, 93);
 }
 
+body {
+  font-family: var(--primary-font);
+}
+
 h1,
 h2,
 h3,
@@ -35,8 +39,8 @@ h4 {
   font-size: 16px;
 }
 
-body {
-  font-family: var(--primary-font);
+p {
+  font-size: 14px;
 }
 
 /* NAV BAR */
@@ -127,6 +131,32 @@ body {
   width: 95%;
   aspect-ratio: 1/1;
   object-fit: cover;
+}
+
+.shop-now-banner {
+  color: white;
+  padding: 120px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/cover2.png);
+  background-position: center;
+  background-size: auto;
+}
+
+.shop-now-banner a {
+  text-decoration: none;
+  color: white;
+}
+
+/* CANDLE CARE */
+.candle-care-container {
+  margin-top: 100px;
+  margin-inline: 240px;
+}
+
+.candle-care-element {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 90px;
 }
 
 /* FOOTER */
