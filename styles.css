@@ -1,9 +1,38 @@
+/* PRESETS */
 :root {
   --primary-color: #e1bbb4;
   --secondary-color: #e1bbb42e;
 
   --primary-font: "Overpass Mono", monospace;
   --secondary-font-color: rgb(94, 93, 93);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-align: center;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 3.2;
+}
+
+h1 {
+  font-size: 48px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+h3 {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+h4 {
+  font-size: 16px;
 }
 
 body {
@@ -16,7 +45,7 @@ body {
   text-align: center;
   top: 0;
   bottom: 100;
-  margin: auto;
+  margin: 30px auto;
   position: absolute;
   left: 0;
   right: 0;
@@ -40,27 +69,7 @@ body {
   padding-left: 50px;
 }
 
-/* HERO */
-h1,
-h2 {
-  line-height: 1.2;
-  font-weight: 400;
-  letter-spacing: 3.2;
-}
-
-.hero h1 {
-  font-size: 48px;
-  padding-bottom: 30px;
-  text-transform: uppercase;
-  color: white;
-}
-
-.hero h2 {
-  font-size: 20px;
-  padding-bottom: 20px;
-  color: white;
-}
-
+/* HERO  */
 .hero {
   text-align: center;
   padding: 300px 0;
@@ -84,6 +93,43 @@ h2 {
   background-color: var(--primary-color);
 }
 
+/* OUR STORY */
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  margin: 100px 60px 0 80px;
+}
+
+.about-img {
+  width: 95%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.wax-container {
+  color: white;
+  padding: 150px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/wax.jpg);
+}
+
+.ig-container {
+  margin-top: 80px;
+}
+.ig-img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-inline: 20px;
+}
+
+.ig-img {
+  width: 95%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* FOOTER */
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -117,7 +163,8 @@ footer ul {
   grid-template-columns: 1fr 1fr 1fr 1fr 4fr;
   padding-top: 10px;
 }
-.footer-banner {
+.footer-banner,
+.header-banner {
   text-align: center;
   color: white;
   font-size: 12px;
@@ -125,4 +172,11 @@ footer ul {
   margin: 0 auto;
   padding: 8px 0px 8px 0px;
   background-color: var(--primary-color);
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .about-container {
+    grid-template-columns: 1fr;
+  }
 }
