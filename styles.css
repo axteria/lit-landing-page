@@ -56,6 +56,10 @@ a:hover {
   color: var(--tertiary-color);
 }
 
+.main-container {
+  margin: 100px 100px 0 100px;
+}
+
 /* NAV BAR */
 .navbar {
   font-size: 14px;
@@ -173,9 +177,6 @@ a:hover {
 }
 
 /* TERMS & CONDITIONS */
-.terms-conditions-container {
-  margin: 100px 100px 0 100px;
-}
 
 .terms-text {
   max-width: 900px;
@@ -201,6 +202,85 @@ a:hover {
   margin: 0 auto;
 }
 
+/* FRAGRANCE NOTES */
+.vanilla-caramel {
+  background-image: url(/img/vanillacaramel.jpg);
+  padding: 280px;
+  background-position: 25% 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.champagne-strawberries {
+  background-image: url(/img/champagnestrawberries.jpg);
+  padding: 280px;
+  background-position: 25% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.english-pear-freesia {
+  background-image: url(/img/pearfreesia.avif);
+  padding: 280px;
+  background-position: 25% 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.spa-aroma {
+  background-image: url(/img/spa-orchids.avif);
+  padding: 280px;
+  background-position: 25% 70%;
+  background-repeat: no-repeat;
+}
+
+.cafe-au-lait {
+  background-image: url(/img/cafeaulait.jpg);
+  padding: 280px;
+  background-position: 25% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.citrus-sherbet {
+  background-image: url(/img/citrussherbet2.avif);
+  padding: 280px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lily-valley {
+  background-image: url(/img/lilyvalley.jpeg);
+  padding: 280px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hyacinth {
+  background-image: url(/img/hyacinth.jpeg);
+  padding: 280px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jadore {
+  background-image: url(/img/jadore.jpg);
+  padding: 280px;
+  background-position: 25% 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.issey {
+  background-image: url(/img/issey.webp);
+  padding: 280px;
+  background-position: 25% 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* FOOTER */
 footer {
   display: grid;
