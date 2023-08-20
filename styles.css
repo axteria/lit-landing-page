@@ -177,8 +177,13 @@ a:hover {
   margin: 100px 100px 0 100px;
 }
 
+.terms-text {
+  max-width: 900px;
+  margin: 0 auto;
+}
 .terms-text p {
   text-align: left;
+  max-width: 900px;
 }
 
 .terms-text h2 {
