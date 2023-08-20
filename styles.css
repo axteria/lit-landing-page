@@ -2,6 +2,7 @@
 :root {
   --primary-color: #e1bbb4;
   --secondary-color: #e1bbb42e;
+  --tertiary-color: #dc9b90;
 
   --primary-font: "Overpass Mono", monospace;
   --secondary-font-color: rgb(94, 93, 93);
@@ -41,6 +42,18 @@ h4 {
 
 p {
   font-size: 14px;
+}
+
+li {
+  font-size: 14px;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--tertiary-color);
 }
 
 /* NAV BAR */
@@ -164,8 +177,13 @@ p {
   margin: 100px 100px 0 100px;
 }
 
-.terms-text {
+.terms-text p {
   text-align: left;
+}
+
+.terms-text h2 {
+  text-align: left;
+  margin-top: 40px;
 }
 
 /* FOOTER */
