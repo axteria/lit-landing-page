@@ -186,6 +186,16 @@ a:hover {
   margin-top: 40px;
 }
 
+/* SHIPPING & RETURNS */
+.returns {
+  padding-top: 30px;
+}
+
+.shipping-returns-main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 /* FOOTER */
 footer {
   display: grid;
