@@ -149,10 +149,10 @@ a:hover {
 .shop-now-banner {
   color: white;
   padding: 120px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(img/cover2.png);
   background-position: center;
-  background-size: auto;
+  background-size: cover;
 }
 
 .shop-now-banner a {
